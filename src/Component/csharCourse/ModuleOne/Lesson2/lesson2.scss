@@ -1,0 +1,136 @@
+.csharp{
+  max-width: 750px;
+  margin: 0 auto;
+
+  .grey{
+    color: grey;
+  }
+  p{
+    margin-top: 10px;
+    color: white;
+    font-size: .9rem;
+  }
+  a{
+    color: #3c3ce1;
+  }
+
+  .image{
+    margin-top: 1rem;
+    width: 40rem;
+    img{
+      width: 100%;
+    }
+  }
+  .video-player{
+    padding: 1rem 0;
+
+    iframe{
+      width: 100%;
+      font-size: 1rem;
+    }
+  }
+
+  .end-lesson{
+    background-color: #1E293B;
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    h2{
+      font-size: 1rem;
+    }
+    .finish-lesson{
+      background-color: #3c3ce1;
+      color: white;
+      padding: .4rem;
+      font-size: 1rem;
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  .csharp{
+    p{
+      margin-top: 10px;
+      color: white;
+    }
+
+    .image{
+      margin-top: 1rem;
+      width: 90%;
+      img{
+        width: 100%;
+      }
+    }
+
+    .end-lesson{
+      background-color: #1E293B;
+      margin-top: 1rem;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+
+      .finish-lesson{
+        background-color: #3c3ce1;
+        color: white;
+        padding: .5rem;
+        font-size: 1rem;
+      }
+
+      h2{
+        font-size: 1rem;
+      }
+
+
+    }
+  }
+
+}
+
+@media (max-width: 425px) {
+  .csharp{
+    p{
+      margin-top: 10px;
+      color: white;
+    }
+
+    .image{
+      margin-top: 1rem;
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+
+    .end-lesson{
+      width: 100%;
+      background-color: #1E293B;
+      margin-top: 1rem;
+      padding: 1rem;
+      display: inline-block;
+      color: white;
+
+      .finish-lesson{
+        margin-top: 1rem;
+        width: 100%;
+        display: inline-block;
+        background-color: #3c3ce1;
+        color: white;
+        padding: .5rem;
+        font-size: 0.9rem;
+      }
+
+      h2{
+        font-size: 0.8rem;
+      }
+
+
+    }
+  }
+}
